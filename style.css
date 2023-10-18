@@ -1,0 +1,18 @@
+@import url("style/header.css");
+@import url("reset.css");
+@import url("style/banner.css");
+@import url("style/conhecimentos.css");
+
+:root {
+    --cor-de-fundo: #E4DF70;
+    --preto: #000;
+    --marrom-claro: #8A7B7B;
+    --branco: #FFFFFF;
+    --fonte-principal: "Jura";
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-size: 24px;
+    font-family: var(--fonte-principal);
+}
